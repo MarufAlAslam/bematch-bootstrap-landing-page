@@ -83,3 +83,37 @@ html {
 }
 
 /* media queries */
+@media screen and (max-width: 992px) {
+  .w-50 {
+    width: 100% !important;
+  }
+  .hero img {
+    opacity: 0.3;
+  }
+  .fs-60 {
+    font-size: 45px;
+  }
+  .fs-25 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .card-body {
+    position: unset !important;
+    transform: unset !important;
+  }
+  .hero img {
+    opacity: 1;
+    transform-origin: left;
+    height: 335px;
+    object-fit: cover;
+    object-position: left;
+  }
+  br {
+    display: none;
+  }
+  .fs-60 {
+    font-size: 35px;
+  }
+}
