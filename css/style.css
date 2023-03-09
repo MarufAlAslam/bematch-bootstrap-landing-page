@@ -21,9 +21,21 @@ html {
   overflow-x: hidden;
 }
 
+/* font sizes */
 .fs-60 {
   font-size: 60px;
 }
+.fs-24 {
+  font-size: 24px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+
+/* text colors */
 .text-blue {
   color: #0079c1;
 }
@@ -33,4 +45,11 @@ html {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* btns */
+.btn-blue {
+  background-color: #0079c1;
+  color: #fff;
+  border: none;
 }
