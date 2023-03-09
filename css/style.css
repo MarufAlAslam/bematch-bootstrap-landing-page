@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "black";
+  src: url("../fonts/proximanova-black.otf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("../fonts/proximanova-medium.otf");
+}
+
+* {
+  font-family: "medium";
+}
+
+.black {
+  font-family: "black";
+}
