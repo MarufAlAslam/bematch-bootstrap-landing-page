@@ -22,8 +22,14 @@ html {
 }
 
 /* font sizes */
+.fs-70 {
+  font-size: 70px;
+}
 .fs-60 {
   font-size: 60px;
+}
+.fs-40 {
+  font-size: 40px;
 }
 .fs-24 {
   font-size: 24px;
@@ -39,6 +45,17 @@ html {
 .text-blue {
   color: #0079c1;
 }
+.text-dark-blue {
+  color: #00355e;
+}
+
+/* bg colors */
+.bg-blue {
+  background-color: #0079c1;
+}
+.bg-semiblue {
+  background-color: #e0eff7;
+}
 
 .card.position-relative .card-body {
   position: absolute;
@@ -52,4 +69,8 @@ html {
   background-color: #0079c1;
   color: #fff;
   border: none;
+}
+
+.va-top {
+  vertical-align: top;
 }
